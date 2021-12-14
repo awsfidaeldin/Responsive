@@ -1,0 +1,48 @@
+.container_1
+{
+    display:flex;
+    flex-direction: row;
+}
+
+
+div
+{
+    border:darkblue 2px solid;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color:papayawhip;
+    border-radius: 20px;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div .box_1
+{
+    flex:1;
+    background-color: lightcoral;
+}
+
+div .box_2
+{
+    flex:1;
+    background-color: lightgreen;
+}
+
+div .box_3
+{
+    flex:1;
+    background-color:lightsalmon;
+}
+
+
+@media screen and (max-width:600px)
+{
+    .container_1
+{
+    display:flex;
+    flex-direction:column;
+}
+}

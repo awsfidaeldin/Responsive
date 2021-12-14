@@ -1,0 +1,48 @@
+.wrapper
+{
+    overflow: auto;
+}
+
+.menuitem
+{
+    border:2px darkblue solid;
+    background-color: lightblue;
+    border-radius: 4px;
+    margin: 4px;
+    padding: 2px;
+    list-style-type: none;
+}
+
+.menulist
+{
+    margin: 10px;
+    padding: 0px;
+    border: darkslateblue solid 1px;
+}
+
+.main
+{
+    margin-left: 4px;
+}
+
+.leftsidebar
+{
+    width:200px;
+    float:left;
+}
+
+a:hover
+{
+    color: firebrick;
+}
+
+@media screen and (max-width:600px)
+{
+    .leftsidebar
+{
+    width:100px;
+    float:none;
+}
+
+}
+
